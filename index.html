@@ -50,7 +50,7 @@
         <h1 class=" mb-5 text-4xl text-white font-bold">End-to-End Travel With</h1>
         <h1 class="mb-5 text-6xl text-[#1DD100]  font-bold" >P Paribahan</h1>
         <p class="mb-5 text-white">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
-        <button class="btn btn-outline btn-success">Buy Tickets</button>
+        <button onclick="scroll_btn()" class="btn btn-outline btn-success">Buy Tickets</button>
     </div>
   </div>
 </header>
@@ -135,86 +135,91 @@
   <br>
   <br>
   <!--Group-50-->
-<div >
-  <h1 class=" text-center">
-   <p class="font-bold text-[40px]"> P.H Paribahan</p>
-<p>Yes, you can run unit tests and view the results directly within the app.</p>
-<p>The integrated testing features allow for a streamlined .</p></h1>
-</div>
-<br>
-<br>
-<br>
-<!--Rectangle-8-->
-<!--main-div-->
-<div class="bg-[url('images/white-big-bg.png')] w-[1170px] h-[418px] top-[1733.81px] left-[135px] rounded-[24px]  ml-20 flex ">
-  <!--web name & sit left & time card -->
- <div >
-<!--web name$ sit left-->
-<div class="flex gap-40">
-  <!--logo & web name-->
-  <div class="flex ml-14 pt-6 gap-2">
-    <img class="w-[68px] h-[48px]  " src="images/bus-logo.png" alt="">
-    <h1>
-       <p class="font-bold text-[32px] text-black ">Greenline Paribahan</p>
-      <p class="text-black">Coach-009-WEB ! AC_Business</p>
-    </h1>
-  </div>
-  <!--logo & web name end-->
-  <!--sit-left-->
-  <div class="bg-[url(images/green-bg.png)] bg-no-repeat w-[186px] h-[56px] p-3 gap-2 mt-6 flex">
-    <img class="w-[28px] h-[28px] " src="images/seat-green.png" alt="">
-    <p class="text-[#1DD100]">08 Seats left</p>
-   </div>
-</div>
-<!--sit-left-end-->
-<!--time card-->
-<div  class="bg-[url('images/white-sm-bg.png')] w-[808px] h-[259px] ml-8">
-  <!--route , time & place-->
-  <!--route-->
-  <div class="flex space-x-96 > * + *	pt-4		">
-    <p class="font-semibold	text-[rgb(3,7,18,0.6)] pl-6">Route</p>
-    <p class="font-semibold	text-black">Dhaka - Sylhet</p>
-  </div>
-  <img class="pl-4  pt-2" src="images/Line 1 (1).png" alt="">
-  <br>
-  <!--time-->
-  <div class="flex space-x-96 > * + * ">
-    <p class="font-semibold	text-[rgb(3,7,18,0.6)] pl-6">Departure Time</p>
-    <p class="font-semibold	text-black">9:00 PM</p>
-  </div>
-  <img class="pl-4 pt-2" src="images/Line 1 (1).png" alt="">
-  <br>
-  <!--placer-->
-  <div class="flex gap-3">
-    <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ml-3">
-      <p class="text-[16px]">Boarding Point - Laxmipur</p>
-    </div>
-    <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ">
-      <p class="text-[16px]">Dropping Point - Bogura</p>
-    </div>
-    <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ">
-      <p class="text-[16px]">Est. Time - 11 Hour</p>
-    </div>
-</div>
-<!--place-end-->
-</div>
-<!--time card-end-->
-</div>
-  <!--web name & sit left & time card -->
-  <img src="images/info-devider.png" alt="">
-  <!--sit-prize-->
-<div class=" ml-11 pt-24">
-  <img class="ml-5" src="images/fare.png" alt="">
-  <div>
-    <h1>
-      <p class="text-[35px] text-black font-bold ">550 Taka</p>
-      <p class="ml-7 text-[20px]">Per Seat</p>
-    </h1>
-  </div>
-</div>
+  <section id="showTicket">
 
+    <div >
+      <h1 class=" text-center">
+       <p class="font-bold text-[40px]"> P.H Paribahan</p>
+    <p>Yes, you can run unit tests and view the results directly within the app.</p>
+    <p>The integrated testing features allow for a streamlined .</p></h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Rectangle-8-->
+    <!--main-div-->
+    <div class="bg-[url('images/white-big-bg.png')] w-[1170px] h-[418px] top-[1733.81px] left-[135px] rounded-[24px]  ml-20 flex ">
+      <!--web name & sit left & time card -->
+     <div >
+    <!--web name$ sit left-->
+    <div class="flex gap-40">
+      <!--logo & web name-->
+      <div class="flex ml-14 pt-6 gap-2">
+        <img class="w-[68px] h-[48px]  " src="images/bus-logo.png" alt="">
+        <h1>
+           <p class="font-bold text-[32px] text-black ">Greenline Paribahan</p>
+          <p class="text-black">Coach-009-WEB ! AC_Business</p>
+        </h1>
+      </div>
+      <!--logo & web name end-->
+      <!--sit-left-->
+      <div class="bg-[url(images/green-bg.png)] bg-no-repeat w-[186px] h-[56px] p-3 gap-2 mt-6 flex">
+        <img class="w-[28px] h-[28px] " src="images/seat-green.png" alt="">
+        <p class="text-[#1DD100]">08 Seats left</p>
+       </div>
+    </div>
+    <!--sit-left-end-->
+    <!--time card-->
+    <div  class="bg-[url('images/white-sm-bg.png')] w-[808px] h-[259px] ml-8">
+      <!--route , time & place-->
+      <!--route-->
+      <div class="flex space-x-96 > * + *	pt-4		">
+        <p class="font-semibold	text-[rgb(3,7,18,0.6)] pl-6">Route</p>
+        <p class="font-semibold	text-black">Dhaka - Sylhet</p>
+      </div>
+      <img class="pl-4  pt-2" src="images/Line 1 (1).png" alt="">
+      <br>
+      <!--time-->
+      <div class="flex space-x-96 > * + * ">
+        <p class="font-semibold	text-[rgb(3,7,18,0.6)] pl-6">Departure Time</p>
+        <p class="font-semibold	text-black">9:00 PM</p>
+      </div>
+      <img class="pl-4 pt-2" src="images/Line 1 (1).png" alt="">
+      <br>
+      <!--placer-->
+      <div class="flex gap-3">
+        <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ml-3">
+          <p class="text-[16px]">Boarding Point - Laxmipur</p>
+        </div>
+        <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ">
+          <p class="text-[16px]">Dropping Point - Bogura</p>
+        </div>
+        <div class="bg-[#0307120D] rounded-[12px] text-center w-[232px] h-[56px] pt-3 ">
+          <p class="text-[16px]">Est. Time - 11 Hour</p>
+        </div>
+    </div>
+    <!--place-end-->
+    </div>
+    <!--time card-end-->
+    </div>
+      <!--web name & sit left & time card -->
+      <img src="images/info-devider.png" alt="">
+      <!--sit-prize-->
+    <div class=" ml-11 pt-24">
+      <img class="ml-5" src="images/fare.png" alt="">
+      <div>
+        <h1>
+          <p class="text-[35px] text-black font-bold ">550 Taka</p>
+          <p class="ml-7 text-[20px]">Per Seat</p>
+        </h1>
+      </div>
+    </div>
+    
+    
+    </div>
 
-</div>
+  </section>
+
 <!--main-div end-->
 <!--form-section-->
 <!--main div-->
@@ -257,34 +262,35 @@
 <br>
 <div class="flex gap-3">
   <p class="text-black ml-3">A</p>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">A1</p>
+<div>
+  <button id="A1" class="btn px-8">A1</button>
 </div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">A2</p>
+<div>
+  <button id="A1" class="btn px-8">A2</button>
 </div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">A3</p>
+<div>
+  <button id="A1" class="btn px-8">A3</button>
 </div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">A4</p>
+<div>
+  <button id="A1" class="btn px-8">A4</button>
 </div>
+
 </div>
 <br>
 <div class="flex gap-3">
   <p class="text-black ml-3">B</p>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">B1</p>
-</div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">B2</p>
-</div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">B3</p>
-</div>
-<div class="bg-[url(images/btn-bg.png)] w-[110px] h-[56px] ">
-  <p class="ml-7 pt-3">B4</p>
-</div>
+  <div>
+    <button id="A1" class="btn px-8">B1</button>
+  </div>
+  <div>
+    <button id="A1" class="btn px-8">B2</button>
+  </div>
+  <div>
+    <button id="A1" class="btn px-8">B3</button>
+  </div>
+  <div>
+    <button id="A1" class="btn px-8">B4</button>
+  </div>
 <br>
 </div>
 <!--seats-end-->
@@ -312,31 +318,33 @@
       <img class="pl-4  pt-2" src="images/Line 1 (1).png" alt="">
       
       <!--time-->
-      <div class="flex 	pt-4	space-x-20 > * + *			">
-        <p class="font-semibold text-[16px]	text-black pl-6">A1</p>
-        <p class="font-semibold text-[16px]	text-black">Economoy</p>
-        <p class="font-semibold text-[16px]	text-black">550</p>
-      </div>
-      <div class="flex 	pt-4	space-x-20 > * + *			">
-        <p class="font-semibol text-[16px]	text-black pl-6">A2</p>
-        <p class="font-semibold text-[16px]	text-black">Economoy</p>
-        <p class="font-semibold text-[16px]	text-black">550</p>
-      </div>
-      <div class="flex 	pt-4	space-x-20 > * + *			">
-        <p class="font-semibold text-[16px]	text-black pl-6">A3</p>
-        <p class="font-semibold text-[16px]	text-black">Economoy</p>
-        <p class="font-semibold text-[16px]	text-black">550</p>
-      </div>
-      <div class="flex 	pt-4	space-x-20 > * + *			">
-        <p class="font-semibold text-[16px]	text-black pl-6">A4</p>
-        <p class="font-semibold text-[16px]	text-black">Economoy</p>
-        <p class="font-semibold text-[16px]	text-black">550</p>
-
+      <div class="hidden">
+        <div class="flex 	pt-4	space-x-20 > * + *			">
+          <p class="font-semibold text-[16px]	text-black pl-6">A1</p>
+          <p class="font-semibold text-[16px]	text-black">Economoy</p>
+          <p class="font-semibold text-[16px]	text-black">550</p>
+        </div>
+        <div class="flex 	pt-4	space-x-20 > * + *			">
+          <p class="font-semibol text-[16px]	text-black pl-6">A2</p>
+          <p class="font-semibold text-[16px]	text-black">Economoy</p>
+          <p class="font-semibold text-[16px]	text-black">550</p>
+        </div>
+        <div class="flex 	pt-4	space-x-20 > * + *			">
+          <p class="font-semibold text-[16px]	text-black pl-6">A3</p>
+          <p class="font-semibold text-[16px]	text-black">Economoy</p>
+          <p class="font-semibold text-[16px]	text-black">550</p>
+        </div>
+        <div class="flex 	pt-4	space-x-20 > * + *			">
+          <p class="font-semibold text-[16px]	text-black pl-6">A4</p>
+          <p class="font-semibold text-[16px]	text-black">Economoy</p>
+          <p class="font-semibold text-[16px]	text-black">550</p>
+  
+        </div>
       </div>
       <img class="pl-4 pt-2" src="images/Line 1 (1).png" alt="">
       <div class="flex space-x-40 > * + *		">
         <p class="text-[16px] text-black ml-5 mt-4">Total Price</p>
-      <p class="text-[16px] text-black  mt-4">BDT 2200</p>
+      <p class="text-[16px] text-black  mt-4"></p>
       </div>
       <br>
       <div class="bg-[url(images/bainchud.png)] space-x-32 h-[56px] bg-no-repeat w-[370px] > * + *	 flex">
@@ -390,6 +398,6 @@
 
 
 </main>
-
+<script src="JS/index.js"></script>
 </body>
 </html>
